@@ -4,7 +4,7 @@ import utility.NoteBookProvider;
 
 public class App {
     public static void main(String[] args) {
-        NoteBookProvider provider = new NoteBookProvider();
+        NoteBookProvider provider = NoteBookProvider.init();
         NoteBookConsoleView view = new NoteBookConsoleView();
 
         view.print(provider.getRandomNote());   // Один Note

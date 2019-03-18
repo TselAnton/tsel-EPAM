@@ -20,6 +20,23 @@ public class NoteBookProvider {
     }
 
     /**
+     * Private Constructor
+     * (For singelton)
+     */
+    private NoteBookProvider() {}
+
+    /**
+     * Custom constructor
+     * @return  Single class instance
+     */
+    public static NoteBookProvider init() {
+        if (singleton == null) {
+            return new NoteBookProvider();
+        }
+        return null;
+    }
+
+    /**
      * Get Random NoteBook
      * @return  NoteBook
      */
