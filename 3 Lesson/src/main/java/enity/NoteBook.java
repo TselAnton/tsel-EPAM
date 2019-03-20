@@ -50,10 +50,10 @@ public class NoteBook {
         for (int i = 0; i < getLength(); i++) {
             result += notes[i].toString();
             if (i + 1 != getLength()) {
-                result += ", ";
+                result += ", \n";
             }
         }
-        return result + "}";
+        return result + "}\n";
     }
 
     /**

@@ -4,16 +4,16 @@ import enity.Note;
 import enity.NoteBook;
 
 /**
- * NoteBookConsoleView
+ * NoteBookView
  */
-abstract public class NoteBookConsoleView {
+public abstract class NoteBookView {
 
     /**
      * Single Note
      * ABSTRACT METHOD
      * @param note  Note
      */
-    abstract public void print(Note note);
+    public abstract void print(Note note);
 
     /**
      * Many Notes

@@ -1,11 +1,11 @@
 import enity.Note;
 import utility.InMemoryNoteBookProvider;
-import utility.NoteBookConsoleView;
+import utility.NoteBookView;
 
 public class App {
     public static void main(String[] args) {
         InMemoryNoteBookProvider provider = InMemoryNoteBookProvider.GetInit();
-        NoteBookConsoleView view = new NoteBookConsoleView() {
+        NoteBookView view = new NoteBookView() {
             // Anonymous class
             public void print(Note note) {
                 System.out.println("Single Note");
