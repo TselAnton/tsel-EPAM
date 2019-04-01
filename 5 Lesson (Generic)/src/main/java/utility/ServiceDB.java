@@ -1,6 +1,7 @@
 package utility;
 
-import convector.ConvectorUsers;
+import convector.ConvectorToUserDTO;
+import convector.ConvectorToUsers;
 import dto.UserDto;
 import interfaces.Service;
 
@@ -11,27 +12,28 @@ import java.util.List;
  */
 public class ServiceDB implements Service<UserDto> {
 
-    private final ServiceLocal serviceLocal = new ServiceLocal();
-    private final ConvectorUsers convector = new ConvectorUsers();
+    private final Repository repository = new Repository();
+    private final ConvectorToUserDTO convectorToUsersDTO = new ConvectorToUserDTO();
+    private final ConvectorToUsers convectorToUsers = new ConvectorToUsers();
 
     @Override
     public UserDto getEntity() {
-        return convector.userToDto(serviceLocal.getEntity());
+        return convectorToUsersDTO.conOneEnity(repository.getEntity());
     }
 
     @Override
     public List<UserDto> getAllEnitys() {
-        return convector.userListToDtoList(serviceLocal.getAllEnitys());
+        return convectorToUsersDTO.conManyEnities(repository.getAllEnitys());
     }
 
     @Override
     public void saveEnity(UserDto enity) {
-        serviceLocal.saveEnity(convector.dtoToUser(enity));
+        repository.saveEnity(convectorToUsers.conOneEnity(enity));
     }
 
     @Override
     public void saveMultipleEnitys(List<UserDto> enitys) {
-        serviceLocal.saveMultipleEnitys(convector.dtoListToUserList(enitys));
+        repository.saveMultipleEnitys(convectorToUsers.conManyEnities(enitys));
     }
 
 

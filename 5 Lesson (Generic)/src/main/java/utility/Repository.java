@@ -1,10 +1,9 @@
 package utility;
 
-import convector.ConvectorUsers;
+import convector.ConvectorToUsers;
 import entities.User;
 import interfaces.Service;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -12,9 +11,9 @@ import java.util.Random;
 /**
  * Сервир, реализующий работу с обычным User
  */
-public class ServiceLocal implements Service<User> {
+public class Repository implements Service<User> {
 
-    private final ConvectorUsers convector = new ConvectorUsers();
+    private final ConvectorToUsers convector = new ConvectorToUsers();
 
     @Override
     public User getEntity() {
@@ -24,7 +23,6 @@ public class ServiceLocal implements Service<User> {
     @Override
     public List<User> getAllEnitys() {
         List<User> users = new ArrayList<>();
-
         for (int i = 0; i < new Random().nextInt(5) + 1; i++) {
             users.add(User.generateUser());
         }
