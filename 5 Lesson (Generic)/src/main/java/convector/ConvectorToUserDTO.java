@@ -1,5 +1,6 @@
 package convector;
 
+import convector.inter.Convector;
 import dto.UserDto;
 import entities.User;
 

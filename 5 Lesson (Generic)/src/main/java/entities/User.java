@@ -43,21 +43,6 @@ public class User {
                 '}';
     }
 
-    public static User generateUser() {
-        String[] names = {"Владимир", "Пётр", "Алексей", "Евкакий", "Святозар"};
-        String[] country = {"Россия", "Америка", "Польша", "Германия"};
-        String[] cities = {"Москва", "Вашингтон", "Варшава", "Берлин"};
-        String[] streets = {"Брянская", "8 Западная улица", "Маршалковская", "Фридрихштрассе"};
-        Random r = new Random();
-        int nameId = r.nextInt(names.length);
-        int addressId = r.nextInt(country.length);
-
-        return new User(r.nextInt(1000), names[nameId],
-                LocalDate.of(r.nextInt(20) + 1980, r.nextInt(11) + 1,
-                        r.nextInt(30) + 1), country[addressId], cities[addressId],
-                streets[addressId],r.nextInt(98) + 1, r.nextInt(199) + 1);
-    }
-
     public class Adress {
         private String country;
         private String city;
