@@ -1,0 +1,13 @@
+-- Сортировка по возростанию по цене продуктов
+SELECT * FROM product ORDER BY price;
+
+-- Сортировка по убыванию по цене продуктов
+SELECT * FROM product ORDER BY price DESC;
+
+-- Выборка продуктов по скидке
+SELECT * FROM product WHERE product.discount > 0;
+
+-- Вывод корзины
+SELECT "user".id AS user, "order".id AS order, basket.product_id AS product
+FROM basket, "order", "user" 
+WHERE ("order".user_id = "user".id AND basket.order_id = "order".id) 
