@@ -1,39 +1,40 @@
-package utility;
+package service;
 
 import convector.ConvectorToUserDTO;
 import convector.ConvectorToUsers;
 import dto.UserDto;
-import interfaces.Service;
+import repository.UsersRepository;
+import service.inter.Service;
 
 import java.util.List;
 
 /**
- * Сервис для БД и работы с UserDTO
+ * Сервис для работы с БД и UserDTO
  */
 public class ServiceDB implements Service<UserDto> {
 
-    private final Repository repository = new Repository();
+    private final UsersRepository usersRepository = new UsersRepository();
     private final ConvectorToUserDTO convectorToUsersDTO = new ConvectorToUserDTO();
     private final ConvectorToUsers convectorToUsers = new ConvectorToUsers();
 
     @Override
     public UserDto getEntity() {
-        return convectorToUsersDTO.conOneEnity(repository.getEntity());
+        return convectorToUsersDTO.conOneEnity(usersRepository.getEntity());
     }
 
     @Override
     public List<UserDto> getAllEnitys() {
-        return convectorToUsersDTO.conManyEnities(repository.getAllEnitys());
+        return convectorToUsersDTO.conManyEnities(usersRepository.getAllEnitys());
     }
 
     @Override
     public void saveEnity(UserDto enity) {
-        repository.saveEnity(convectorToUsers.conOneEnity(enity));
+        usersRepository.saveEnity(convectorToUsers.conOneEnity(enity));
     }
 
     @Override
     public void saveMultipleEnitys(List<UserDto> enitys) {
-        repository.saveMultipleEnitys(convectorToUsers.conManyEnities(enitys));
+        usersRepository.saveMultipleEnitys(convectorToUsers.conManyEnities(enitys));
     }
 
 

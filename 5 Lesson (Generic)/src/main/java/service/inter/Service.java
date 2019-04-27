@@ -1,4 +1,4 @@
-package interfaces;
+package service.inter;
 
 import java.util.List;
 

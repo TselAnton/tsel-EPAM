@@ -33,21 +33,6 @@ public class UserDto {
         return adress;
     }
 
-    public static UserDto generateUser() {
-        String[] names = {"Евгения", "Анастасия", "Елизавета", "Анна", "Мария"};
-        String[] country = {"Чехия", "Грузия", "Украина", "Австралия"};
-        String[] cities = {"Прага", "Тбилиси", "Киев", "Канберра"};
-        String[] streets = {"Увоз", "Нато-Вачнадзе", "Крещатик", "Ноулс Плейс"};
-        Random r = new Random();
-        int nameId = r.nextInt(names.length);
-        int addressId = r.nextInt(country.length);
-
-        return new UserDto(r.nextInt(1000), names[nameId],
-                LocalDate.of(r.nextInt(20) + 1980, r.nextInt(11) + 1,
-                        r.nextInt(30) + 1), country[addressId], cities[addressId],
-                streets[addressId],r.nextInt(98) + 1, r.nextInt(199) + 1);
-    }
-
     public class Adress {
         private String country;
         private String city;

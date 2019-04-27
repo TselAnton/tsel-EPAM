@@ -1,4 +1,4 @@
-package convector;
+package convector.inter;
 
 import java.util.List;
 

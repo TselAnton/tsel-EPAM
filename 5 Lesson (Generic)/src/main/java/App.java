@@ -1,5 +1,6 @@
 import dto.UserDto;
-import utility.ServiceDB;
+import service.ServiceDB;
+import utilites.GeneratorEnities;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -10,14 +11,15 @@ public class App {
 
     public static void main(String[] args) {
         ServiceDB serviceDB = new ServiceDB();
+        GeneratorEnities generator = new GeneratorEnities();
 
         List<UserDto> usersDto = serviceDB.getAllEnitys();
         for (int i = 0; i <= new Random().nextInt(5) + 1; i++) {
-            usersDto.add(UserDto.generateUser());
+            usersDto.add(generator.generateUserDto());
         }
 
         System.out.println("Came alone DTO");
-        serviceDB.saveEnity(UserDto.generateUser()); // Добавляем одну дтошку из вне
+        serviceDB.saveEnity(generator.generateUserDto()); // Добавляем одну дтошку из вне
         System.out.println("\nCame some DTO");
         serviceDB.saveMultipleEnitys(usersDto); // Добавляем несколько новых дтошек из вне
 
