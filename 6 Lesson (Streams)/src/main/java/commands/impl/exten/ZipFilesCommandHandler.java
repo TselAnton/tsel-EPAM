@@ -1,6 +1,9 @@
-package commands;
+package commands.impl.exten;
 
-import commands.inter.Command;
+import commands.impl.AbstractCommandHandler;
+import exeptions.CommandArgumentsIncorrectExeption;
+import exeptions.CreateFileException;
+import exeptions.NotFoundFileException;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -11,14 +14,16 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-public class ZipFiles implements Command {
-    private final String arg = "\"path_to_zip_file\" \"files...\"";
-    private final String description = "Создание zip архива\n         " +
-            "-path_to_zip_file — Путь создания архива в двойных ковычках\n         " +
-            "-files... — Пути к файлам для последующей запаковки, в двойных ковычках";
+public class ZipFilesCommandHandler extends AbstractCommandHandler {
     private final String ERR_MESSAGE = "Ошибка создания архива! ";
 
-    public void doCommand(String args) {
+    public ZipFilesCommandHandler() {
+        super("\"path_to_zip_file\" \"files...\"",
+                new String[]{"Создание zip архива", "-path_to_zip_file", "Путь создания архива в двойных ковычках",
+                        "-files...", "Пути к файлам для последующей запаковки, в двойных ковычках"});
+    }
+
+    public void handle(String args) throws CommandArgumentsIncorrectExeption, CreateFileException, NotFoundFileException {
         String[] options = args.split("\"");
         try {
             String filePath = options[1];
@@ -28,11 +33,11 @@ public class ZipFiles implements Command {
             }
             zipFiles(filePath, files);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println(ERR_MESSAGE + "Не верно указаны аргументы!");
+            throw new CommandArgumentsIncorrectExeption(ERR_MESSAGE + "Не верно указаны аргументы!");
         }
     }
 
-    private void zipFiles(String filePath, List<String> files) {
+    private void zipFiles(String filePath, List<String> files) throws NotFoundFileException, CreateFileException {
         ZipOutputStream zipOutputStream;
         try {
             zipOutputStream = new ZipOutputStream(new FileOutputStream(filePath));
@@ -51,13 +56,9 @@ public class ZipFiles implements Command {
             zipOutputStream.close();
             System.out.println("Архив " + filePath + " успешно создан!");
         } catch (FileNotFoundException e) {
-            System.out.println(ERR_MESSAGE + "Не удалось обнаружить все указанные файлы!");
+            throw new NotFoundFileException(ERR_MESSAGE + "Не удалось обнаружить все указанные файлы!");
         } catch (IOException e) {
-            System.out.println(ERR_MESSAGE + "Не удалось создать архив!");
+            throw new CreateFileException(ERR_MESSAGE + "Не удалось создать архив!");
         }
-    }
-
-    public String getArgs() {
-        return arg + "      " + description;
     }
 }
