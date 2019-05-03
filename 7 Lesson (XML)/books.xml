@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LIBRARY>
+    <BOOK>
+        <AUTHOR>
+            <FIRSTNAME>Михаил</FIRSTNAME>
+            <LASTNAME>Афанасьевич</LASTNAME>
+            <SECONDNAME>Булгаков</SECONDNAME>
+        </AUTHOR>
+        <PAGES>512</PAGES>
+        <TITLE>Мастер и Маргарита</TITLE>
+        <PUBLISHER>Вече</PUBLISHER>
+    </BOOK>
+    <BOOK>
+        <AUTHOR>
+            <FIRSTNAME>Федор</FIRSTNAME>
+            <LASTNAME>Михайлович</LASTNAME>
+            <SECONDNAME>Достоевский</SECONDNAME>
+        </AUTHOR>
+        <PAGES>532</PAGES>
+        <TITLE>Преступление и наказание</TITLE>
+        <PUBLISHER>Речь</PUBLISHER>
+    </BOOK>
+    <BOOK>
+        <AUTHOR>
+            <FIRSTNAME>Лев</FIRSTNAME>
+            <LASTNAME>Николаевич</LASTNAME>
+            <SECONDNAME>Толстой</SECONDNAME>
+        </AUTHOR>
+        <PAGES>1120</PAGES>
+        <TITLE>Война и мир</TITLE>
+        <PUBLISHER>СЗКЭО</PUBLISHER>
+    </BOOK>
+    <BOOK>
+        <AUTHOR>
+            <FIRSTNAME>Николай</FIRSTNAME>
+            <LASTNAME>Васильевич</LASTNAME>
+            <SECONDNAME>Гоголь</SECONDNAME>
+        </AUTHOR>
+        <PAGES>4001</PAGES>
+        <TITLE>Мертвые души</TITLE>
+        <PUBLISHER>Речь</PUBLISHER>
+    </BOOK>
+</LIBRARY>

@@ -1,0 +1,978 @@
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser: Парсирование xml документа при помощи DOM
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser: CATALOG
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Кровавый корень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Sanguinaria canadensis
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $2.44
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 031599
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Аквилегия
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Aquilegia canadensis
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.37
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 030699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Болотная Календула
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Caltha palustris
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $6.81
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 051799
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Первоцвет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Caltha palustris
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.90
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 030699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Борец Английский
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Dicentra cucullaria
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $6.44
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 012099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Дикий Имбирь
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Asarum canadense
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.03
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 041899
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Перелеска
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Hepatica americana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $4.45
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 012699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Печеночница
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Hepatica americana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $3.99
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 010299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Аризема Трехлистная
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Arisaema triphyllum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $3.23
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 020199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Подофил
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Podophyllum peltatum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $2.98
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 060599
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Флокс, Лесистая Местность
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Phlox divaricata
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $2.80
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 012299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Флокс, Голубой
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Phlox divaricata
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $5.59
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 021699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Клейтония
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Claytonia Virginica
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 7
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $6.59
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 020199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Триллиум
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Trillium grandiflorum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 5
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $3.90
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 042999
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Триллиум
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Trillium grandiflorum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 5
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $3.20
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 022199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Фиалка, "Пёсий Клык"
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Erythronium americanum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.04
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 020199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Форелевая Лилия
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Erythronium americanum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $6.94
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 032499
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Ужовник
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Erythronium americanum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.58
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 041399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Ветреница
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Anemone blanda
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 6
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $8.86
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 122698
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Греческая Ветреница
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Anemone blanda
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 6
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.16
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 071099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Пчелиный Бальзам
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Monarda didyma
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $4.59
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 050399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Бергамот
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Monarda didyma
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $7.16
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 042799
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Черноглазый Гибискус
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Rudbeckia hirta
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.80
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 061899
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Лютик
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Ranunculus
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $2.57
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 061099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Лютик
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Ranunculus
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.34
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 040399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Бабочкина Травка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Asclepias tuberosa
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $2.78
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 063099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Лапчатка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Potentilla
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $7.06
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 052599
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Примула
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Oenothera
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 3 - 5
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $6.56
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 013099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Горечавка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Gentiana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $7.81
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 051899
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Голубая Горечавка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Gentiana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $8.56
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 050299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Лестница Джейкобса
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Polemonium caeruleum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $9.26
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 022199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Греческая Валериана
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Polemonium caeruleum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $4.36
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 071499
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Калифорнийский Мак
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Eschscholzia californica
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $7.89
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 032799
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Стреляющая Звезда
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Dodecatheon
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $8.60
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 051399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Змеиный Корень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Cimicifuga
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $5.63
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 071199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:    PLANT
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         COMMON: Цветок Кардинала
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         BOTANICAL: Lobelia cardinalis
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         ZONE: 2
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         LIGHT: Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         PRICE: $3.02
+2019-05-04 02:59:28 INFO utilities.xmlParcers.DomXmlParser:         AVAILABILITY: 022299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:    
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser: Парсирование xml документа при помощи StAX
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser: <CATALOG>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Кровавый корень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Sanguinaria canadensis
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $2.44
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                031599
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Аквилегия
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Aquilegia canadensis
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.37
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                030699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Болотная Календула
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Caltha palustris
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $6.81
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                051799
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Первоцвет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Caltha palustris
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.90
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                030699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Борец Английский
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Dicentra cucullaria
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $6.44
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                012099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Дикий Имбирь
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Asarum canadense
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.03
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                041899
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Перелеска
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Hepatica americana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $4.45
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                012699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Печеночница
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Hepatica americana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $3.99
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                010299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Аризема Трехлистная
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Arisaema triphyllum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $3.23
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                020199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Подофил
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Podophyllum peltatum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $2.98
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                060599
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Флокс, Лесистая Местность
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Phlox divaricata
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $2.80
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                012299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Флокс, Голубой
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Phlox divaricata
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                3
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $5.59
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                021699
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Клейтония
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Claytonia Virginica
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                7
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $6.59
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                020199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Триллиум
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Trillium grandiflorum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                5
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $3.90
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                042999
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Триллиум
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Trillium grandiflorum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                5
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $3.20
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                022199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Фиалка, "Пёсий Клык"
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Erythronium americanum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.04
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                020199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Форелевая Лилия
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Erythronium americanum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $6.94
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                032499
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Ужовник
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Erythronium americanum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.58
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                041399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Ветреница
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Anemone blanda
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                6
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $8.86
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                122698
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Греческая Ветреница
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Anemone blanda
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                6
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.16
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                071099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Пчелиный Бальзам
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Monarda didyma
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $4.59
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                050399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Бергамот
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Monarda didyma
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $7.16
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                042799
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Черноглазый Гибискус
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Rudbeckia hirta
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.80
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                061899
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Лютик
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Ranunculus
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $2.57
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                061099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Лютик
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Ranunculus
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.34
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                040399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Бабочкина Травка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Asclepias tuberosa
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $2.78
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                063099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Лапчатка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Potentilla
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $7.06
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                052599
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Примула
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Oenothera
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                3 - 5
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $6.56
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                013099
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Горечавка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Gentiana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $7.81
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                051899
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Голубая Горечавка
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Gentiana
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                4
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет или тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $8.56
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                050299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Лестница Джейкобса
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Polemonium caeruleum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $9.26
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                022199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Греческая Валериана
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Polemonium caeruleum
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $4.36
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                071499
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Калифорнийский Мак
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Eschscholzia californica
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Свет
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $7.89
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                032799
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Стреляющая Звезда
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Dodecatheon
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                По большей части тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $8.60
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                051399
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Змеиный Корень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Cimicifuga
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Годичный
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $5.63
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                071199
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      <PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Цветок Кардинала
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </COMMON>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Lobelia cardinalis
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </BOTANICAL>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                2
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </ZONE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                Тень
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </LIGHT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                $3.02
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </PRICE>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           <AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:                022299
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:           </AVAILABILITY>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser:      </PLANT>
+2019-05-04 02:59:28 INFO utilities.xmlParcers.StaxXmlParser: </CATALOG>

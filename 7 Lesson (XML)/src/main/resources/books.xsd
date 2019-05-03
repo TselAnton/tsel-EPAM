@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="LIBRARY">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="BOOK" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- По умолчанию maxOccurs и minOccurs = 1, поэтому без указания кол-ва -->
+                            <xs:element name="AUTHOR">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="FIRSTNAME" type="xs:string"/>
+                                        <xs:element name="LASTNAME" type="xs:string"/>
+                                        <xs:element name="SECONDNAME" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PAGES" type="xs:positiveInteger"/>
+                            <xs:element name="TITLE" type="xs:string"/>
+                            <xs:element name="PUBLISHER" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

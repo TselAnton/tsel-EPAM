@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- При помощи программы удалено большенство растений, а так же добавлено одно новое — крапива -->
+<CATALOG>
+    <PLANT>
+        <COMMON>Кровавый корень</COMMON>
+        <BOTANICAL>Sanguinaria canadensis</BOTANICAL>
+        <ZONE>4</ZONE>
+        <LIGHT>По большей части тень</LIGHT>
+        <PRICE>$2.44031599</PRICE>
+        <AVAILABILITY/>
+    </PLANT>
+    <PLANT>
+        <COMMON>Аквилегия</COMMON>
+        <BOTANICAL>Aquilegia canadensis</BOTANICAL>
+        <ZONE>3</ZONE>
+        <LIGHT>По большей части тень</LIGHT>
+        <PRICE>$9.37030699</PRICE>
+        <AVAILABILITY/>
+    </PLANT>
+    <PLANT>
+        <COMMON>Болотная Календула</COMMON>
+        <BOTANICAL>Caltha palustris</BOTANICAL>
+        <ZONE>4</ZONE>
+        <LIGHT>По большей части свет</LIGHT>
+        <PRICE>$6.81051799</PRICE>
+        <AVAILABILITY/>
+    </PLANT>
+    <PLANT>
+        <COMMON>Крапива</COMMON>
+        <BOTANICAL>Urtíca</BOTANICAL>
+        <ZONE>3</ZONE>
+        <LIGHT>Тень</LIGHT>
+        <PRICE>$0.50037655</PRICE>
+        <AVAILABILITY/>
+    </PLANT>
+</CATALOG>
