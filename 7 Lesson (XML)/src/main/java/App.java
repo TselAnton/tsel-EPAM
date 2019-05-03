@@ -27,7 +27,7 @@ public class App {
 
         XmlGenerator generator = new XmlGenerator();
         logger.debug("Создан объект " + generator.toString());
-        //generator.generateXml();
+        generator.generateXml();
 
         System.out.println("Проверка на валидность book.xml: " + Validator.validateXml("books.xml", PATH_TO_XSD));    // Валидная схема
         logger.info("Проверяем на валидность документ books.xml — " + Validator.validateXml("books.xml", PATH_TO_XSD));
