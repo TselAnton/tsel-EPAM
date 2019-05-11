@@ -2,9 +2,9 @@ INSERT INTO public."role" (name, qty) VALUES ('Администратор', -1), ('Покупатель
 INSERT INTO public."order_status" (name) VALUES ('Неоплачен'), ('Завершён');
 INSERT INTO public."product_category" (name) VALUES ('Процессоры'), ('Материнские платы'), ('Видеокарты'), ('Оперативная память');
 
-INSERT INTO public."user" (fio, login, password, phone, email, city, street, house, role_id) VALUES
+INSERT INTO public."user" (fio, login, password, phone, email, city, street, house, apartment, role_id) VALUES
 	('Кувшинова Евгения Андреевна', 'jnuka', 'jnuka', '89063332364', 'jnuka@mail.ru', 'Тольятти', '40 лет Победы', '30', '24', 1),
-	('Цель Антон Вадимович', 'tsel', 'tsel', '89063772375', 'tsel@mail.ru', 'Тольятти', '70 лет Октября', '55', 2),
+	('Цель Антон Вадимович', 'tsel', 'tsel', '89063772375', 'tsel@mail.ru', 'Тольятти', '70 лет Октября', '55', '52', 2);
 
 INSERT INTO public."product" (name, category_id, brand, price, qty, discount, description) VALUES
 	('FX-6300 AM3+ OEM', 1, 'AMD', 312000, 5, 0, 'Крутой процессор, но старый'),

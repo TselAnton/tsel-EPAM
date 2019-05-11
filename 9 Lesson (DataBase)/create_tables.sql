@@ -2,7 +2,7 @@ CREATE TABLE if not exists public."role"
 (
 	id SERIAL NOT NULL PRIMARY KEY,
 	name VARCHAR(30) NOT NULL UNIQUE,
-	qty INTEGER DEFAULT = 0
+	qty INTEGER DEFAULT 0
 );
 
 ALTER TABLE public."role" OWNER to postgres;
@@ -37,7 +37,7 @@ CREATE TABLE if not exists public."user"
 	apartment VARCHAR(10),
 	registration_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	role_id INTEGER REFERENCES public."role" (id),
-	qty_orders INTEGER DEFAULT = 0
+	qty_orders INTEGER DEFAULT 0
 );
 
 ALTER TABLE public."user" OWNER to postgres;
@@ -49,9 +49,9 @@ CREATE TABLE if not exists public."product"
 	category_id INTEGER REFERENCES public."product_category" (id),
 	brand VARCHAR(30) NOT NULL,
 	price INTEGER NOT NULL,
-	qty INTEGER DEFAULT = 0,
-	discount INTEGER DEFAULT = 0,
-	description text NOT NULL,
+	qty INTEGER DEFAULT 0,
+	discount INTEGER DEFAULT 0,
+	description text NOT NULL
 );
 
 ALTER TABLE public."product" OWNER to postgres;
