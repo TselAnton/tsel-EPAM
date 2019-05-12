@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="STORE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PRODUCT" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="NAME" type="xs:string"/>
+                            <xs:element name="CATEGORY_ID" type="xs:positiveInteger"/>
+                            <xs:element name="BRAND" type="xs:string"/>
+                            <xs:element name="PRICE" type="xs:float"/>
+                            <xs:element name="QTY" type="xs:nonNegativeInteger"/>
+                            <xs:element name="DISCOUNT" type="xs:float"/>
+                            <xs:element name="DESCRIPTION" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

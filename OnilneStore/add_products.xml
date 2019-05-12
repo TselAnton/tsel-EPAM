@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<STORE>
+    <!-- Данный продукт уже есть, поэтому он обновится в базе -->
+    <PRODUCT>
+        <NAME>FX-6300 AM3+ OEM</NAME>
+        <CATEGORY_ID>1</CATEGORY_ID>
+        <BRAND>AMD</BRAND>
+        <PRICE>28000.99</PRICE>
+        <QTY>13</QTY>
+        <DISCOUNT>500</DISCOUNT>
+        <DESCRIPTION>Крутой процессор, но старый</DESCRIPTION>
+    </PRODUCT>
+    <!-- Данный продукт новый, он добавится как новый -->
+    <PRODUCT>
+        <NAME>Palit GeForce RTX 2060 Gaming</NAME>
+        <CATEGORY_ID>3</CATEGORY_ID>
+        <BRAND>Nvidia</BRAND>
+        <PRICE>27299</PRICE>
+        <QTY>46</QTY>
+        <DISCOUNT>0</DISCOUNT>
+        <DESCRIPTION>Самый топ — бери, а потом спрашивай!</DESCRIPTION>
+    </PRODUCT>
+</STORE>
