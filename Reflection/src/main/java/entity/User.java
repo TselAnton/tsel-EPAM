@@ -1,6 +1,11 @@
 package entity;
 
+import test.EnumTest;
+
 import java.sql.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
 
 public class User {
     private int id;
@@ -17,10 +22,16 @@ public class User {
     private int roleId;
     private int qtyOrders;
 
+    /* Для теста */
+    private List<Items> itemsList;
+    private Set<Items> itemsSet;
+    private HashMap<Integer, Items> itemsHashMap;
+    private EnumTest enumItem = EnumTest.ONE;
+
     public User() {
     }
 
-    public User(int id, String fio, String login, String password, String phone, String email, String city, String street, String house, String apartment, Date registrationDate, int roleId, int qtyOrders) {
+    public User(int id, String fio, String login, String password, String phone, String email, String city, String street, String house, String apartment, Date registrationDate, int roleId, int qtyOrders, List<Items> itemsList, Set<Items> itemsSet, HashMap<Integer, Items> itemsHashMap, EnumTest enumItem) {
         this.id = id;
         this.fio = fio;
         this.login = login;
@@ -34,6 +45,10 @@ public class User {
         this.registrationDate = registrationDate;
         this.roleId = roleId;
         this.qtyOrders = qtyOrders;
+        this.itemsList = itemsList;
+        this.itemsSet = itemsSet;
+        this.itemsHashMap = itemsHashMap;
+        this.enumItem = enumItem;
     }
 
     /* Конструктор клонирования */
@@ -51,12 +66,46 @@ public class User {
                 u.getApartment(),
                 u.getRegistrationDate(),
                 u.getRoleId(),
-                u.getQtyOrders()
+                u.getQtyOrders(),
+                u.getItemsList(),
+                u.getItemsSet(),
+                u.getItemsHashMap(),
+                u.getEnumItem()
         );
     }
 
 
+    public List<Items> getItemsList() {
+        return itemsList;
+    }
 
+    public void setItemsList(List<Items> itemsList) {
+        this.itemsList = itemsList;
+    }
+
+    public Set<Items> getItemsSet() {
+        return itemsSet;
+    }
+
+    public void setItemsSet(Set<Items> itemsSet) {
+        this.itemsSet = itemsSet;
+    }
+
+    public HashMap<Integer, Items> getItemsHashMap() {
+        return itemsHashMap;
+    }
+
+    public void setItemsHashMap(HashMap<Integer, Items> itemsHashMap) {
+        this.itemsHashMap = itemsHashMap;
+    }
+
+    public EnumTest getEnumItem() {
+        return enumItem;
+    }
+
+    public void setEnumItem(EnumTest enumItem) {
+        this.enumItem = enumItem;
+    }
 
     public int getId() {
         return id;
