@@ -53,6 +53,7 @@ public class ItemsPool {
                 e.printStackTrace();
             }
             ConsoleLogger.log("Закончил работу с " + itemList.get(randomId).toString());
+            itemList.get(randomId).setUsing(false);
         }
     }
 }
