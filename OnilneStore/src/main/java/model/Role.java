@@ -1,16 +1,18 @@
-package entity;
+package model;
 
-public class OrderStatus {
+public class Role {
 
     private int id;
     private String name;
+    private int qty;
 
-    public OrderStatus() {
+    public Role() {
     }
 
-    public OrderStatus(int id, String name) {
+    public Role(int id, String name, int qty) {
         this.id = id;
         this.name = name;
+        this.qty = qty;
     }
 
     public int getId() {
@@ -29,21 +31,31 @@ public class OrderStatus {
         this.name = name;
     }
 
+    public int getQty() {
+        return qty;
+    }
+
+    public void setQty(int qty) {
+        this.qty = qty;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        OrderStatus status = (OrderStatus) o;
+        Role role = (Role) o;
 
-        if (id != status.id) return false;
-        return name.equals(status.name);
+        if (id != role.id) return false;
+        if (qty != role.qty) return false;
+        return name.equals(role.name);
     }
 
     @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + name.hashCode();
+        result = 31 * result + qty;
         return result;
     }
 }

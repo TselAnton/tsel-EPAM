@@ -1,10 +1,10 @@
-package dao;
+package dao.pool;
 
-import entity.Role;
+import model.Role;
 
 import java.util.HashMap;
 
-public interface RoleDao {
+public interface RoleDaoPool {
 
     HashMap<Integer, Role> getAllRoles();
 }

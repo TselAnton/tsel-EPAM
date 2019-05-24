@@ -1,8 +1,8 @@
-package dao.impl;
+package dao.pool.impl;
 
 import controller.ConnectionController;
-import dao.RoleDao;
-import entity.Role;
+import dao.pool.RoleDaoPool;
+import model.Role;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
@@ -14,12 +14,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 
-public class RoleDaoImpl implements RoleDao {
+public class RoleDaoPoolImpl implements RoleDaoPool {
 
     private Connection connection = ConnectionController.getInstance().getConnection();
 
-    private final Logger logger = LoggerFactory.getLogger(RoleDaoImpl.class.getName());
-    private final Marker MARKER = MarkerFactory.getMarker("Exception ");
+    private final Logger LOGGER = LoggerFactory.getLogger(RoleDaoPoolImpl.class.getName());
+    private final Marker MARKER = MarkerFactory.getMarker("SQLException ");
 
     @Override
     public HashMap<Integer, Role> getAllRoles() {
@@ -38,7 +38,7 @@ public class RoleDaoImpl implements RoleDao {
                 roles.put(rs.getInt("id"), role);
             }
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, e.getMessage(), e);
         }
 
         return roles;

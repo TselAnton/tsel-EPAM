@@ -1,6 +1,6 @@
 package dto;
 
-import entity.OrderStatus;
+import model.OrderStatus;
 
 import java.sql.Date;
 import java.text.SimpleDateFormat;
@@ -77,7 +77,7 @@ public class OrderDto {
     }
 
     public String toString(HashMap<Integer, OrderStatus> orderStatus) {
-        return "Дата оформления: " + new SimpleDateFormat("dd.MM.yyyy HH:mm").format(date) +
+        return "Дата оформления: " + new SimpleDateFormat("dd.MM.yyyy").format(date) +
                 "\nСтатус заказа: " + orderStatus.get(statusId).getName();
     }
 }

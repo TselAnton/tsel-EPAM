@@ -1,30 +1,29 @@
 package view.impl.extend;
 
 import dto.ProductDto;
-import entity.Category;
-import exeptions.NotPointFound;
+import model.Category;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
 import org.slf4j.MarkerFactory;
+import utils.ViewUtils;
 import view.impl.ViewAbstract;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Scanner;
 
 /**
  * Просмотр каталога товаров
- *
- * Level 2
  */
 public class CatalogView extends ViewAbstract {
 
-    private Scanner scanner = new Scanner(System.in);
-
-    private final Logger logger = LoggerFactory.getLogger(CatalogView.class.getName());
+    private final Scanner SCANNER = new Scanner(System.in);
+    private final Logger LOGGER = LoggerFactory.getLogger(CatalogView.class.getName());
     private final Marker MARKER = MarkerFactory.getMarker("Exception ");
 
-    private int page = 0;
-    private int pageStep = 5;   // Кол-во показываемых товаров на странице
+    private int visibleEntries = 0;
+    private int numberOfVisibleEntries = 5;   
     private HashMap<Integer, ProductDto> products = new HashMap<>();
 
     public CatalogView(int level) {
@@ -38,7 +37,6 @@ public class CatalogView extends ViewAbstract {
     }
 
     @Override
-    @SuppressWarnings("Duplicates")
     public int showMenu() {
         System.out.println("==== Просмотр каталога товаров ====");
 
@@ -51,112 +49,56 @@ public class CatalogView extends ViewAbstract {
         System.out.println("5. Вернуться в главное меню");
         int pointCount = 5;
 
-        System.out.print("Выберете пункт меню: ");
-        int point = 0;
-
-        try {
-            try {
-                point = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                scanner.nextLine();
-                throw new NotPointFound(e);
-            } finally {
-                if (point != 0 && (point > pointCount || point < 1)) {
-                    throw new NotPointFound(point);
-                }
-            }
-        } catch (NotPointFound e) {
-            logger.error(MARKER, "NotPointFound", e);
-            System.out.println("Не верно указан пункт меню!");
-        }
-
-        System.out.println();
-        return point;
+        return ViewUtils.getMenuPoint(SCANNER, pointCount, LOGGER, MARKER);
     }
 
     public void resetPage() {
-        page = 0;
+        visibleEntries = 0;
     }
 
     public void pageUp() {
-        if (page + pageStep < products.size()) {
-            page += pageStep;
+        if (visibleEntries + numberOfVisibleEntries < products.size()) {
+            visibleEntries += numberOfVisibleEntries;
         }
     }
 
     public void pageDown() {
-        if (page - pageStep > 0) {
-            page -= pageStep;
+        if (visibleEntries - numberOfVisibleEntries > 0) {
+            visibleEntries -= numberOfVisibleEntries;
         } else {
-            page = 0;
+            visibleEntries = 0;
         }
     }
 
     public void showShortCatalog() {
         int sizeOfList = products.size();
-        for (int i = page; i < page + pageStep; i++) {
+        for (int i = visibleEntries; i < visibleEntries + numberOfVisibleEntries; i++) {
             if (i < sizeOfList) {
-                System.out.println(String.format("%3s. ", i + 1) + products.get(i).shortToString());
+                System.out.println(String.format("%3s. ", i + 1) + products.get(i).toShortString());
             }
         }
         System.out.println();
     }
 
     public void showProduct(int id, HashMap<Integer, Category> category) {
-        logger.debug("ShowProduct: id = " + id);
+        LOGGER.debug("ShowProduct: id = " + id);
         System.out.println("==== Просмотр товара ====");
         System.out.println(products.get(id - 1).toString(category));
         System.out.println();
     }
 
-    @SuppressWarnings("Duplicates")
     public int getIdOfProduct() {
         System.out.print("Введите номер просматреваемого товара: ");
-        int number = -1;
-
-        try {
-            try {
-                number = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                scanner.nextLine();
-                throw new NotPointFound(e);
-            } finally {
-                if (number != -1 && (number > products.size() || number < 1)) {
-                    number = 0;
-                    throw new NotPointFound(number);
-                }
-            }
-        } catch (NotPointFound e) {
-            logger.error(MARKER, "NotPointFound", e);
-            System.out.println("Такого товара не существует!");
-        }
-
+        int number = ViewUtils.inputNumber(SCANNER, products.size(), LOGGER, MARKER);
         System.out.println();
         return number;
     }
 
-    @SuppressWarnings("Duplicates")
     public ProductDto getProduct() {
         System.out.print("Введите номер товара для добавления в корзину: ");
-        int number = -1;
-
-        try {
-            try {
-                number = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                scanner.nextLine();
-                throw new NotPointFound(e);
-            } finally {
-                if (number != -1 && (number > products.size() || number < 1)) {
-                    number = 0;
-                    throw new NotPointFound(number);
-                }
-            }
-        } catch (NotPointFound e) {
-            logger.error(MARKER, "NotPointFound", e);
-            System.out.println("Такого товара не существует!");
-        }
-
+        int number = ViewUtils.inputNumber(SCANNER, products.size(), LOGGER, MARKER);
         return number != 0 ? products.get(number - 1) : null;
     }
+
+
 }

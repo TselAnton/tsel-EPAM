@@ -2,7 +2,7 @@ package dao.impl;
 
 import controller.ConnectionController;
 import dao.ProductDao;
-import entity.Product;
+import model.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
@@ -19,13 +19,11 @@ public class ProductDaoImpl implements ProductDao {
 
     private Connection connection = ConnectionController.getInstance().getConnection();
 
-    private final Logger logger = LoggerFactory.getLogger(ProductDaoImpl.class.getName());
-    private final Marker MARKER = MarkerFactory.getMarker("Exception ");
+    private final Logger LOGGER = LoggerFactory.getLogger(ProductDaoImpl.class.getName());
+    private final Marker MARKER = MarkerFactory.getMarker("SQLException ");
 
     @Override
-    @SuppressWarnings("Duplicates")
-    public int addProduct(Product product) {
-        int result = 0;
+    public boolean addProduct(Product product) {
         try {
             PreparedStatement statement = connection.prepareStatement(
                     "INSERT INTO product (\"name\", category_id, brand, price, qty, discount, description) " +
@@ -39,19 +37,17 @@ public class ProductDaoImpl implements ProductDao {
             statement.setInt(6, product.getDiscount());
             statement.setString(7, product.getDescription());
 
-            result = statement.executeUpdate();
+            int countOfExecute = statement.executeUpdate();
+            if (countOfExecute > 0) return true;
 
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, "Can't execute statement addProduct", e);
         }
-        return result;
+        return false;
     }
 
     @Override
-    @SuppressWarnings("Duplicates")
-    public int updateProduct(Product product) {
-        int result = 0;
-
+    public boolean updateProduct(Product product) {
         try {
             PreparedStatement statement = connection.prepareStatement(
                     "UPDATE product SET category_id = ?, brand = ?, price = ?, qty = ?, discount = ?, " +
@@ -65,19 +61,16 @@ public class ProductDaoImpl implements ProductDao {
             statement.setString(6, product.getDescription());
             statement.setString(7, product.getName());
 
-            result = statement.executeUpdate();
+            int countOfExecute = statement.executeUpdate();
+            if (countOfExecute > 0) return true;
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, "Can't execute statement updateProduct", e);
         }
-
-        return result;
+        return false;
     }
 
     @Override
-    @SuppressWarnings("Duplicates")
-    public int updateProductDiscount(Product product) {
-        int result = 0;
-
+    public boolean updateProductDiscount(Product product) {
         try {
             PreparedStatement statement = connection.prepareStatement(
                     "UPDATE \"product\" SET discount = ? WHERE \"product\".name = ?");
@@ -85,51 +78,47 @@ public class ProductDaoImpl implements ProductDao {
             statement.setInt(1, product.getDiscount());
             statement.setString(2, product.getName());
 
-            result = statement.executeUpdate();
+            int countOfExecute = statement.executeUpdate();
+            if (countOfExecute > 0) return true;
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, "Can't execute statement updateProductDiscount", e);
         }
-
-        return result;
+        return false;
     }
 
     @Override
-    @SuppressWarnings("Duplicates")
     public Product getProductById(int id) {
-        Product product = null;
-
         try {
             PreparedStatement statement = connection.prepareStatement("SELECT * FROM product WHERE product.id = ?");
             statement.setInt(1, id);
             ResultSet rs = statement.executeQuery();
 
-            while (rs.next()) {
-                product = new Product();
-                product.setId(rs.getInt("id"));
-                product.setName(rs.getString("name"));
-                product.setCategoryId(rs.getInt("category_id"));
-                product.setBrand(rs.getString("brand"));
-                product.setPrice(rs.getInt("price"));
-                product.setQty(rs.getInt("qty"));
-                product.setDiscount(rs.getInt("discount"));
-                product.setDescription(rs.getString("description"));
-            }
+            List<Product> productList = getProductsByResultSet(rs, LOGGER, MARKER);
+            if (productList.size() > 0) return productList.get(0);
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, "Can't execute statement getProductById", e);
         }
-
-        return product;
+        return null;
     }
 
     @Override
-    @SuppressWarnings("Duplicates")
     public List<Product> getAllProducts() {
         List<Product> products = new ArrayList<>();
-
         try {
             PreparedStatement statement = connection.prepareStatement("SELECT * FROM product");
             ResultSet rs = statement.executeQuery();
+            products = getProductsByResultSet(rs, LOGGER, MARKER);
 
+        } catch (SQLException e) {
+            LOGGER.error(MARKER, "Can't execute statement getAllProducts", e);
+        }
+        return products;
+    }
+
+    public static List<Product> getProductsByResultSet(ResultSet rs, Logger logger, Marker marker) {
+        List<Product> productList = new ArrayList<>();
+
+        try {
             while (rs.next()) {
                 Product product = new Product();
                 product.setId(rs.getInt("id"));
@@ -141,13 +130,12 @@ public class ProductDaoImpl implements ProductDao {
                 product.setDiscount(rs.getInt("discount"));
                 product.setDescription(rs.getString("description"));
 
-                products.add(product);
+                productList.add(product);
             }
-
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            logger.error(marker, "Can't get model Product form ResultSet", e);
         }
 
-        return products;
+        return productList;
     }
 }

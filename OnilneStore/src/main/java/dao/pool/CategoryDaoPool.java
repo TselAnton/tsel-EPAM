@@ -1,10 +1,10 @@
-package dao;
+package dao.pool;
 
-import entity.Category;
+import model.Category;
 
 import java.util.HashMap;
 
-public interface CategoryDao {
+public interface CategoryDaoPool {
 
     public HashMap<Integer, Category> getAllCategory();
 }

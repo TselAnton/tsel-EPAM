@@ -1,6 +1,6 @@
 package dao;
 
-import entity.Order;
+import model.Order;
 
 import java.util.List;
 
@@ -10,6 +10,5 @@ public interface OrderDao {
     boolean updateOrder(Order order);
 
     Order getLastOrderByUserId(int userId);
-
     List<Order> getAllOrdersByUserId(int userId);
 }

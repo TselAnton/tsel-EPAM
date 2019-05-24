@@ -1,17 +1,16 @@
 package service;
 
-import convector.impl.UserToDtoConvector;
+import convector.impl.entity_to_dto.UserToDtoConvector;
 import dao.impl.UserDaoImpl;
 import dto.UserDto;
-import entity.User;
+import model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public final class UserService {
 
-    private Logger logger = LoggerFactory.getLogger(UserService.class.getName());
-
     private final UserDaoImpl userDaoImpl = new UserDaoImpl();
+
 
     public UserDto logIn(String[] args) {
         UserDto userDto = null;

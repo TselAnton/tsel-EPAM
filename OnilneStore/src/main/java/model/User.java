@@ -1,6 +1,7 @@
-package entity;
+package model;
 
 import java.sql.Date;
+import java.util.Objects;
 
 
 public class User {
@@ -153,15 +154,15 @@ public class User {
         if (id != user.id) return false;
         if (roleId != user.roleId) return false;
         if (qtyOrders != user.qtyOrders) return false;
-        if (fio != null ? !fio.equals(user.fio) : user.fio != null) return false;
+        if (!Objects.equals(fio, user.fio)) return false;
         if (!login.equals(user.login)) return false;
         if (!password.equals(user.password)) return false;
         if (!phone.equals(user.phone)) return false;
         if (!email.equals(user.email)) return false;
         if (!city.equals(user.city)) return false;
         if (!street.equals(user.street)) return false;
-        if (house != null ? !house.equals(user.house) : user.house != null) return false;
-        if (apartment != null ? !apartment.equals(user.apartment) : user.apartment != null) return false;
+        if (!Objects.equals(house, user.house)) return false;
+        if (!Objects.equals(apartment, user.apartment)) return false;
         return registrationDate.equals(user.registrationDate);
     }
 

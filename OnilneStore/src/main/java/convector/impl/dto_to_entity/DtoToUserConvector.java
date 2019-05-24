@@ -1,8 +1,8 @@
-package convector.impl;
+package convector.impl.dto_to_entity;
 
 import convector.Convector;
 import dto.UserDto;
-import entity.User;
+import model.User;
 
 public class DtoToUserConvector implements Convector<User, UserDto> {
 

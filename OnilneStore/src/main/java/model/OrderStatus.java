@@ -1,14 +1,14 @@
-package entity;
+package model;
 
-public class Category {
+public class OrderStatus {
 
     private int id;
     private String name;
 
-    public Category() {
+    public OrderStatus() {
     }
 
-    public Category(int id, String name) {
+    public OrderStatus(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -34,10 +34,10 @@ public class Category {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Category category = (Category) o;
+        OrderStatus status = (OrderStatus) o;
 
-        if (id != category.id) return false;
-        return name.equals(category.name);
+        if (id != status.id) return false;
+        return name.equals(status.name);
     }
 
     @Override

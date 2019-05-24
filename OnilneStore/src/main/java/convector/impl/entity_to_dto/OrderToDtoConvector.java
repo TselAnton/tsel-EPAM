@@ -1,8 +1,8 @@
-package convector.impl;
+package convector.impl.entity_to_dto;
 
 import convector.Convector;
 import dto.OrderDto;
-import entity.Order;
+import model.Order;
 
 public class OrderToDtoConvector implements Convector<OrderDto, Order> {
 

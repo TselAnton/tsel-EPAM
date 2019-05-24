@@ -1,8 +1,9 @@
-package convector.impl;
+package convector.impl.entity_list_to_dto_list;
 
 import convector.Convector;
 import dto.ProductDto;
-import entity.Product;
+import model.Product;
+import utils.Convectors;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +14,7 @@ public class ListProductToListDtoConvector implements Convector<List<ProductDto>
         List<ProductDto> products = new ArrayList<>();
 
         for (Product p : obj) {
-            products.add(new ProductToDtoConvector().convert(p));
+            products.add(Convectors.PRODUCT_TO_DTO_CONVECTOR.convert(p));
         }
         return products;
     }

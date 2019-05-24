@@ -1,6 +1,6 @@
 package dto;
 
-import entity.Category;
+import model.Category;
 
 import java.util.HashMap;
 
@@ -138,7 +138,7 @@ public class ProductDto {
         return result;
     }
 
-    public String shortToString() {
+    public String toShortString() {
         return String.format("%-20s | Количество: %-14s | Цена: %-8.2f руб  | Цена с учётом скидки: %-8.2f руб", name,
                 qty == 0 ? "Нет в наличии" : String.valueOf(qty), (float)price / 100, (float)(price - discount) / 100);
     }
@@ -154,7 +154,7 @@ public class ProductDto {
                 "\nОписание: " + description;
     }
 
-    public String toStringShopCart() {
+    public String toShopCartString() {
         return String.format("%-20s%10s%8.2f руб.    x %d шт.",
                 name, "Цена: ", (float)((price - discount) / 100 * count),  count);
     }

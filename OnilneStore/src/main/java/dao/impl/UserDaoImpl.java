@@ -2,7 +2,7 @@ package dao.impl;
 
 import controller.ConnectionController;
 import dao.UserDao;
-import entity.User;
+import model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
@@ -17,14 +17,11 @@ public class UserDaoImpl implements UserDao {
 
     private Connection connection = ConnectionController.getInstance().getConnection();
 
-    private final Logger logger = LoggerFactory.getLogger(UserDaoImpl.class.getName());
-    private final Marker MARKER = MarkerFactory.getMarker("Exception ");
+    private final Logger LOGGER = LoggerFactory.getLogger(UserDaoImpl.class.getName());
+    private final Marker MARKER = MarkerFactory.getMarker("SQLException ");
 
     @Override
     public boolean addUser(User user) {
-
-        int result = 0;
-
         try {
             PreparedStatement statement = connection.prepareStatement(
                     "INSERT INTO public.\"user\" (fio, login, password, phone, email, city, street, house, apartment, role_id) " +
@@ -41,52 +38,16 @@ public class UserDaoImpl implements UserDao {
             statement.setString(9, user.getApartment());
             statement.setInt(10, user.getRoleId());
 
-            result = statement.executeUpdate();
+            int countOfExecute = statement.executeUpdate();
+            if (countOfExecute > 0) return true;
 
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, "Can't execute statement addUser", e);
         }
-        return result != 0;
+        return false;
     }
 
     @Override
-    @SuppressWarnings("Duplicates")
-    public User getUserById(int id) {
-        User user = null;
-
-        try {
-            PreparedStatement statement = connection.prepareStatement(
-                    "SELECT * FROM \"user\" WHERE \"user\".id = ?");
-
-            statement.setInt(1, id);
-            ResultSet rs = statement.executeQuery();
-
-            while (rs.next()) {
-                user = new User();
-                user.setId(rs.getInt("id"));
-                user.setFio(rs.getString("fio"));
-                user.setLogin(rs.getString("login"));
-                user.setPassword(rs.getString("password"));
-                user.setPhone(rs.getString("phone"));
-                user.setEmail(rs.getString("phone"));
-                user.setCity(rs.getString("city"));
-                user.setStreet(rs.getString("street"));
-                user.setHouse(rs.getString("house"));
-                user.setApartment(rs.getString("apartment "));
-                user.setRegistrationDate(rs.getDate("registration_date"));
-                user.setRoleId(rs.getInt("role_id"));
-                user.setRoleId(rs.getInt("qty_orders"));
-            }
-
-        } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
-        }
-
-        return user;
-    }
-
-    @Override
-    @SuppressWarnings("Duplicates")
     public User getUserByLogin(String login) {
         User user = null;
 
@@ -115,7 +76,7 @@ public class UserDaoImpl implements UserDao {
             }
 
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, "Can't execute statement getUserByLogin", e);
         }
 
         return user;

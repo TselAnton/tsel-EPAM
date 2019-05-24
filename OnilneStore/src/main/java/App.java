@@ -1,5 +1,4 @@
 import controller.SessionController;
-import view.impl.extend.SingInView;
 
 public class App {
 

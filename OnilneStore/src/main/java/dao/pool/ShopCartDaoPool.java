@@ -1,11 +1,11 @@
-package dao;
+package dao.pool;
 
-import entity.Order;
-import entity.Product;
+import model.Order;
+import model.Product;
 
 import java.util.List;
 
-public interface ShopCartDao {
+public interface ShopCartDaoPool {
 
     boolean addToCaryProduct(Order order, Product product);
 

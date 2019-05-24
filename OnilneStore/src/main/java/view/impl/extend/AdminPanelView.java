@@ -1,11 +1,11 @@
 package view.impl.extend;
 
 import dto.ProductDto;
-import entity.Product;
 import exeptions.InvalidInputFormat;
 import exeptions.NotPointFound;
 import exeptions.RowTooLargeExeption;
 import exeptions.XmlFileNotValid;
+import model.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
@@ -15,6 +15,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import utils.ViewUtils;
 import utils.XmlValidator;
 import view.impl.ViewAbstract;
 
@@ -29,21 +30,17 @@ import java.util.Scanner;
 
 /**
  * Админ-панель
- *
- * Level 4
  */
 public class AdminPanelView extends ViewAbstract {
 
-    private Scanner scanner = new Scanner(System.in);
-
-    private final Logger logger = LoggerFactory.getLogger(AdminPanelView.class.getName());
+    private final Scanner SCANNER = new Scanner(System.in);
+    private final Logger LOGGER = LoggerFactory.getLogger(AdminPanelView.class.getName());
     private final Marker MARKER = MarkerFactory.getMarker("Exception ");
 
 
     public AdminPanelView(int level) {super(level);}
 
     @Override
-    @SuppressWarnings("Duplicates")
     public int showMenu() {
         System.out.println("==== Административная панель ====");
         System.out.println("1. Установить скилку на товар");
@@ -51,104 +48,42 @@ public class AdminPanelView extends ViewAbstract {
         System.out.println("3. Вернуться в основное меню");
         int pointCount = 3;
 
-        System.out.print("Выберете пункт меню: ");
-        int point = 0;
-
-
-        try {
-            try {
-                point = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                scanner.nextLine();
-                throw new NotPointFound(e);
-            } finally {
-                if (point != 0 && (point > pointCount || point < 1)) {
-                    throw new NotPointFound(point);
-                }
-            }
-        } catch (NotPointFound e) {
-            logger.error(MARKER, "NotPointFound", e);
-            System.out.println("Не верно указан пункт меню!");
-        }
-
-        System.out.println();
-        return point;
+        return ViewUtils.getMenuPoint(SCANNER, pointCount, LOGGER, MARKER);
     }
 
-    @SuppressWarnings("Duplicates")
     public ProductDto setDiscount(List<ProductDto> products) {
 
-        System.out.println("==== Изменение скидки товара ====");
+        showShortProductsList(products);
 
-        for (int i = 0; i < products.size(); i++) {
-            System.out.println(String.format("%4d. ", i+1) +
-                    products.get(i).shortToString());
-        }
-
-        System.out.println();
         System.out.print("Выберете номер товара: ");
-        int number = -1;
+        int number = ViewUtils.inputNumber(SCANNER, products.size(), LOGGER, MARKER);
 
-        try {
-            try {
-                number = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                scanner.nextLine();
-                throw new NotPointFound(e);
-            } finally {
-                if (number != -1 && (number > products.size() || number < 1)) {
-                    number = 0;
-                    throw new NotPointFound(number);
-                }
-            }
-        } catch (NotPointFound e) {
-            logger.error(MARKER, "NotPointFound", e);
-            System.out.println("Такого товара не существует!");
-        }
-
-        ProductDto p = null;
+        ProductDto productDto = null;
         if (number != 0) {
-            p = products.get(number - 1);
+            productDto = products.get(number - 1);
 
-            System.out.print("Введите размер скидки в рублях: ");
-            float discount = -1;
-            try {
-                try {
-                    discount = scanner.nextFloat();
-                } catch (InputMismatchException e) {
-                    scanner.nextLine();
-                    throw new InvalidInputFormat(e);
-                } finally {
-                    if (discount != -1 && (discount * 100 > p.getPrice() || discount < 0)) {
-                        discount = -1;
-                        throw new InvalidInputFormat("Discount less than zero or more than the price of the goods!");
-                    }
-                }
-            } catch (InvalidInputFormat e) {
-                logger.error(MARKER, "NotPointFound", e);
-                System.out.println("Не верно указана скидка! Ошибка ввода, либо скидка меньше нуля или больше цены товара!");
-            }
+            float discount = inputDiscountValue(productDto);
 
             if (discount != -1) {
-                p.setDiscount((int)discount * 100);
+                productDto.setDiscount((int)(discount * 100));
             }
         }
 
         System.out.println();
-        return p;
+        return productDto;
     }
 
     public List<Product> getProductsFromXml() {
 
         List<Product> productsList = null;
-        scanner.nextLine();
+        SCANNER.nextLine();
         System.out.println("==== Добавление товаров через XML файл ====");
         System.out.print("Введите путь к файлу в двойных кавычках: ");
-        String path = scanner.nextLine();
+        String path = SCANNER.nextLine();
 
         path = path.replace("\"", "");
         boolean isValid = XmlValidator.validateXml(path);
-        logger.debug("isValid = " + isValid);
+        LOGGER.debug("isValid = " + isValid);
         try {
             if (!isValid) {
                 throw new XmlFileNotValid("File " + path + " not found or xml file is not valid!");
@@ -190,17 +125,11 @@ public class AdminPanelView extends ViewAbstract {
                     productsList.add(product);
                 }
             }
-        } catch (XmlFileNotValid e) {
-            logger.error(MARKER, "XmlFileNotValid", e);
-        } catch (ParserConfigurationException e) {
-            logger.error(MARKER, "ParserConfigurationException", e);
-        } catch (SAXException e) {
-            logger.error(MARKER, "SAXException", e);
-        } catch (IOException e) {
-            logger.error(MARKER, "IOException", e);
+        } catch (XmlFileNotValid | ParserConfigurationException | SAXException | IOException e) {
+            LOGGER.error(MARKER, e.getMessage(), e);
         } catch (RowTooLargeExeption e) {
             productsList = null;
-            logger.error(MARKER, "RowTooLargeExeption", e);
+            LOGGER.error(MARKER, e.getMessage(), e);
             System.out.println("Имя должно быть не более 30 символов!");
         } finally {
             if (productsList == null)
@@ -209,5 +138,36 @@ public class AdminPanelView extends ViewAbstract {
         }
 
         return productsList;
+    }
+
+    private void showShortProductsList(List<ProductDto> products) {
+        System.out.println("==== Изменение скидки товара ====");
+        for (int i = 0; i < products.size(); i++) {
+            System.out.println(String.format("%4d. ", i+1) +
+                    products.get(i).toShortString());
+        }
+        System.out.println();
+    }
+
+    private float inputDiscountValue(ProductDto product) {
+        System.out.print("Введите размер скидки в рублях: ");
+        float discount = -1;
+        try {
+            try {
+                discount = SCANNER.nextFloat();
+            } catch (InputMismatchException e) {
+                SCANNER.nextLine();
+                throw new InvalidInputFormat(e);
+            } finally {
+                if (discount != -1 && (discount * 100 > product.getPrice() || discount < 0)) {
+                    discount = -1;
+                    throw new InvalidInputFormat("Discount less than zero or more than the price of the goods!");
+                }
+            }
+        } catch (InvalidInputFormat e) {
+            LOGGER.error(MARKER, "Discount less than zero or more than the price of the goods", e);
+            System.out.println("Не верно указана скидка! Ошибка ввода, либо скидка меньше нуля или больше цены товара!");
+        }
+        return discount;
     }
 }

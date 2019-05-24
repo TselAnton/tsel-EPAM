@@ -1,47 +1,35 @@
 package service;
 
-import convector.impl.DtoToProductConvector;
-import convector.impl.ListProductToListDtoConvector;
-import convector.impl.ProductToDtoConvector;
 import dao.impl.ProductDaoImpl;
 import dto.ProductDto;
-import entity.Product;
+import model.Product;
+import utils.Convectors;
 
 import java.util.List;
 
 public final class ProductService {
 
     private final ProductDaoImpl productDao = new ProductDaoImpl();
-    private final ProductToDtoConvector productToDtoConvector = new ProductToDtoConvector();
-    private final DtoToProductConvector dtoToProductConvector = new DtoToProductConvector();
 
      public List<ProductDto> getAllProducts() {
         List<Product> products = productDao.getAllProducts();
-        return new ListProductToListDtoConvector().convert(products);
+        return Convectors.LIST_PRODUCT_TO_LIST_DTO_CONVECTOR.convert(products);
     }
 
     public ProductDto getProductById(int id) {
-         return productToDtoConvector.convert(productDao.getProductById(id));
-    }
-
-    public int addProduct(ProductDto dto) {
-         return productDao.addProduct(dtoToProductConvector.convert(dto));
+         return Convectors.PRODUCT_TO_DTO_CONVECTOR.convert(productDao.getProductById(id));
     }
 
     private int addProduct(Product product) {
-        return productDao.addProduct(product);
-    }
-
-    public int updateProduct(ProductDto dto) {
-         return productDao.updateProduct(dtoToProductConvector.convert(dto));
+         return productDao.addProduct(product) ? 1 : 0;
     }
 
     private int updateProduct(Product product) {
-         return productDao.updateProduct(product);
+         return productDao.updateProduct(product) ? 1 : 0;
     }
 
     public int updateProductDiscount(ProductDto dto) {
-         return productDao.updateProductDiscount(dtoToProductConvector.convert(dto));
+         return productDao.updateProductDiscount(Convectors.DTO_TO_PRODUCT_CONVECTOR.convert(dto)) ? 1 : 0;
     }
 
     public int addProductsFromFile(List<Product> products) {

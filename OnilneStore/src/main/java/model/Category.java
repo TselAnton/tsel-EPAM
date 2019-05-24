@@ -1,18 +1,16 @@
-package entity;
+package model;
 
-public class Role {
+public class Category {
 
     private int id;
     private String name;
-    private int qty;
 
-    public Role() {
+    public Category() {
     }
 
-    public Role(int id, String name, int qty) {
+    public Category(int id, String name) {
         this.id = id;
         this.name = name;
-        this.qty = qty;
     }
 
     public int getId() {
@@ -31,31 +29,21 @@ public class Role {
         this.name = name;
     }
 
-    public int getQty() {
-        return qty;
-    }
-
-    public void setQty(int qty) {
-        this.qty = qty;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Role role = (Role) o;
+        Category category = (Category) o;
 
-        if (id != role.id) return false;
-        if (qty != role.qty) return false;
-        return name.equals(role.name);
+        if (id != category.id) return false;
+        return name.equals(category.name);
     }
 
     @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + name.hashCode();
-        result = 31 * result + qty;
         return result;
     }
 }

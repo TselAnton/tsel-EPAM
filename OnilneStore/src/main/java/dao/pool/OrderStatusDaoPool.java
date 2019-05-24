@@ -1,10 +1,10 @@
-package dao;
+package dao.pool;
 
-import entity.OrderStatus;
+import model.OrderStatus;
 
 import java.util.HashMap;
 
-public interface OrderStatusDao {
+public interface OrderStatusDaoPool {
 
     public HashMap<Integer, OrderStatus> getAllStatuses();
 }

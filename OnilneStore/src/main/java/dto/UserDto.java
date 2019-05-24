@@ -1,10 +1,11 @@
 package dto;
 
-import entity.Role;
+import model.Role;
 
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
+import java.util.Objects;
 
 public class UserDto {
 
@@ -41,7 +42,6 @@ public class UserDto {
         this.orderDto = orderDto;
     }
 
-    @SuppressWarnings("Duplicates")
     public String toString(HashMap<Integer, Role> roles) {
         String result = "Логин: " + login;
         result += !fio.equals("") ? "\nФИО: " + fio : "";
@@ -63,7 +63,7 @@ public class UserDto {
 
         result += "\nКоличество заказов: " + qtyOrders;
         result += "\nСтатус: " + roles.get(roleId).getName();
-        result += "\nДата регистрации: " + new SimpleDateFormat("dd MMMM yyyy HH:mm").
+        result += "\nДата регистрации: " + new SimpleDateFormat("dd MMMM yyyy").
                 format(registrationDate);
 
         return result;
@@ -79,16 +79,16 @@ public class UserDto {
         if (id != userDto.id) return false;
         if (roleId != userDto.roleId) return false;
         if (qtyOrders != userDto.qtyOrders) return false;
-        if (fio != null ? !fio.equals(userDto.fio) : userDto.fio != null) return false;
+        if (!Objects.equals(fio, userDto.fio)) return false;
         if (!login.equals(userDto.login)) return false;
         if (!phone.equals(userDto.phone)) return false;
         if (!email.equals(userDto.email)) return false;
         if (!city.equals(userDto.city)) return false;
-        if (street != null ? !street.equals(userDto.street) : userDto.street != null) return false;
-        if (house != null ? !house.equals(userDto.house) : userDto.house != null) return false;
-        if (apartment != null ? !apartment.equals(userDto.apartment) : userDto.apartment != null) return false;
+        if (!Objects.equals(street, userDto.street)) return false;
+        if (!Objects.equals(house, userDto.house)) return false;
+        if (!Objects.equals(apartment, userDto.apartment)) return false;
         if (!registrationDate.equals(userDto.registrationDate)) return false;
-        return orderDto != null ? orderDto.equals(userDto.orderDto) : userDto.orderDto == null;
+        return Objects.equals(orderDto, userDto.orderDto);
     }
 
     @Override

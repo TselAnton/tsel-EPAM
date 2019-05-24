@@ -20,7 +20,7 @@ public final class ConnectionController {
     private final String DRIVER = "org.postgresql.Driver";
 
     private final Marker MARKER = MarkerFactory.getMarker("Exception ");
-    private final Logger logger = LoggerFactory.getLogger(ConnectionController.class.getName());
+    private final Logger LOGGER = LoggerFactory.getLogger(ConnectionController.class.getName());
 
     private Connection connection = null;
 
@@ -32,9 +32,9 @@ public final class ConnectionController {
             Class.forName(DRIVER);
             connection = DriverManager.getConnection(URL, LOGIN, PASS);
         } catch (ClassNotFoundException e) {
-            logger.error(MARKER, "ClassNotFound", e);
+            LOGGER.error(MARKER, e.getMessage(), e);
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, e.getMessage(), e);
         }
     }
 

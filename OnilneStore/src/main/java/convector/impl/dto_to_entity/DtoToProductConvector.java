@@ -1,8 +1,8 @@
-package convector.impl;
+package convector.impl.dto_to_entity;
 
 import convector.Convector;
 import dto.ProductDto;
-import entity.Product;
+import model.Product;
 
 public class DtoToProductConvector implements Convector<Product, ProductDto> {
     @Override

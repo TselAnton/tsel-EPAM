@@ -1,14 +1,10 @@
 package service;
 
-import convector.impl.DtoToOrderConvector;
-import convector.impl.DtoToProductConvector;
-import convector.impl.ProductToDtoConvector;
-import dao.impl.ShopCartDaoImpl;
+import dao.pool.impl.ShopCartDaoPoolImpl;
 import dto.OrderDto;
 import dto.ProductDto;
-import entity.Product;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import model.Product;
+import utils.Convectors;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,12 +12,8 @@ import java.util.List;
 
 public final class ShopCartService {
 
-    private final ShopCartDaoImpl shopCartDao = new ShopCartDaoImpl();
-    private final ProductToDtoConvector productToDtoConvector = new ProductToDtoConvector();
-    private final DtoToOrderConvector dtoToOrderConvector = new DtoToOrderConvector();
-    private final DtoToProductConvector dtoToProductConvector = new DtoToProductConvector();
+    private final ShopCartDaoPoolImpl shopCartDao = new ShopCartDaoPoolImpl();
 
-    private Logger logger = LoggerFactory.getLogger(ShopCartService.class.getName());
 
     public List<ProductDto> getAllProductsByOrderId(int orderId) {
         List<Product> products = shopCartDao.getAllProductsByOrderId(orderId);
@@ -30,7 +22,7 @@ public final class ShopCartService {
         for (int i = 0; i < products.size(); i++) {
             Product p = products.get(i);
             if (!dtoHashMap.containsKey(p.getId())) {
-                dtoHashMap.put(p.getId(), productToDtoConvector.convert(p));
+                dtoHashMap.put(p.getId(), Convectors.PRODUCT_TO_DTO_CONVECTOR.convert(p));
             } else {
                 dtoHashMap.get(p.getId()).sumCount(1);
             }
@@ -40,8 +32,8 @@ public final class ShopCartService {
     }
 
     public boolean addProductInShopCart(OrderDto orderDto, ProductDto productDto) {
-        boolean result = shopCartDao.addToCaryProduct(dtoToOrderConvector.convert(orderDto),
-                dtoToProductConvector.convert(productDto));
+        boolean result = shopCartDao.addToCaryProduct(Convectors.DTO_TO_ORDER_CONVECTOR.convert(orderDto),
+                Convectors.DTO_TO_PRODUCT_CONVECTOR.convert(productDto));
         return result;
     }
 }

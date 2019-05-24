@@ -1,9 +1,10 @@
-package dao.impl;
+package dao.pool.impl;
 
 import controller.ConnectionController;
-import dao.ShopCartDao;
-import entity.Order;
-import entity.Product;
+import dao.impl.ProductDaoImpl;
+import dao.pool.ShopCartDaoPool;
+import model.Order;
+import model.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
@@ -16,12 +17,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShopCartDaoImpl implements ShopCartDao {
+public class ShopCartDaoPoolImpl implements ShopCartDaoPool {
 
     private Connection connection = ConnectionController.getInstance().getConnection();
 
-    private final Logger logger = LoggerFactory.getLogger(ShopCartDaoImpl.class.getName());
-    private final Marker MARKER = MarkerFactory.getMarker("Exception ");
+    private final Logger LOGGER = LoggerFactory.getLogger(ShopCartDaoPoolImpl.class.getName());
+    private final Marker MARKER = MarkerFactory.getMarker("SQLException ");
 
     @Override
     public boolean addToCaryProduct(Order order, Product product) {
@@ -35,13 +36,12 @@ public class ShopCartDaoImpl implements ShopCartDao {
             int count = statement.executeUpdate();
             if (count == 1) result = true;
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, e.getMessage(), e);
         }
         return result;
     }
 
     @Override
-    @SuppressWarnings("Duplicates")
     public List<Product> getAllProductsByOrderId(int orderId) {
 
         List<Product> products = new ArrayList<>();
@@ -54,22 +54,10 @@ public class ShopCartDaoImpl implements ShopCartDao {
             statement.setInt(1, orderId);
             ResultSet rs = statement.executeQuery();
 
-            while (rs.next()) {
-                Product product = new Product();
-                product.setId(rs.getInt("id"));
-                product.setName(rs.getString("name"));
-                product.setCategoryId(rs.getInt("category_id"));
-                product.setBrand(rs.getString("brand"));
-                product.setPrice(rs.getInt("price"));
-                product.setQty(rs.getInt("qty"));
-                product.setDiscount(rs.getInt("discount"));
-                product.setDescription(rs.getString("description"));
-
-                products.add(product);
-            }
+            products = ProductDaoImpl.getProductsByResultSet(rs, LOGGER, MARKER);
 
         } catch (SQLException e) {
-            logger.error(MARKER, "SQLException", e);
+            LOGGER.error(MARKER, e.getMessage(), e);
         }
 
         return products;
